@@ -1,0 +1,42 @@
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand{
+    margin-left: 0px;
+}
+
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover{
+    color: #0f0e0f;
+    background-color: #f0fca2e6;
+    border-radius: 30px;
+
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover{
+    color: #0f0e0f;
+    background-color: #e7ddd0;
+    border-radius: 30px;
+}
+
+/*.navbar-inverse .navbar-nav > .active > a:focus {color: #262A3A;}*/
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+.navbar-default {
+
+    background-color: #090202cc;
+    border-color: #090202cc;
+
+}
+
+.navbar-nav > li > a{
+
+    padding-bottom: 5px;
+}
