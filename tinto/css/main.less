@@ -208,7 +208,7 @@ Revolution slider
     display: none;
     .transition(all, 0.3s, ease);
     &:hover{
-        color: @color1;
+        color: @color5;
     }
 }
 
@@ -409,7 +409,7 @@ video#cover-video {
     }
     .navbar-default .navbar-nav > li > a{
         text-transform: uppercase; 
-        color: @color5_9; .opensans; font-size: 11px;
+        color: @color5_9; .opensans; font-size: 14px;
         padding: 15px 0 5px;
         letter-spacing: 2px;
         margin: 0 0 0 18px;
@@ -494,7 +494,7 @@ section{
 }
 .section-title{
     position: relative;
-    background-color: @color1_9;
+    background-color: @color5;
 
     &:after{
         content:''; 
@@ -504,7 +504,7 @@ section{
         width: 0; 
         height: 0; 
         margin-left: -40px;
-        border-top: 40px solid @color1_9; 
+        border-top: 40px solid @color5; 
         border-left: 40px solid transparent;
         border-right: 40px solid transparent;        
         -webkit-box-sizing: border-box; 
@@ -517,11 +517,11 @@ section{
         margin:0;
         //padding: 80px 0 60px 0;
         .head-title{
-            color: @color5; font-size: 35px; padding:0 0 2px; margin: 0;font-size:35px;
+            color: @color7; font-size: 35px; padding:10px; margin: 0;font-size:35px;
              text-transform: uppercase; .raleway; text-align: center; letter-spacing: 5px;
         }
         .head-text{
-            color: @color5_7; font-size: 14px; z-index: 3; margin: 0 0 20px; letter-spacing: 1px; text-align: center; .raleway; text-transform: uppercase;
+            color: @color7_7; font-size: 14px; z-index: 3; margin: 0 0 20px; letter-spacing: 1px; text-align: center; .raleway; text-transform: uppercase;
         }
     }
     .section-title-body.dark{
@@ -537,7 +537,7 @@ section{
 
 .section-sub-title{
     .head-title{
-        color:@color1; position: relative; padding:0 0 40px 0; margin: 0; 
+        color:@color3; position: relative; padding:0 0 40px 0; margin: 0; 
         .raleway;
     }
     .section-title-body.white{
@@ -551,10 +551,13 @@ section{
     .section-title-body{
         position: relative;
         span{
-            font-weight: 600; color: @color2;
+            font-weight: 600; color: @color5_7;
         }
         .head-text{
             margin-bottom: 30px;
+        }
+        p{
+            color:@color4_7;
         }
     }
 
@@ -667,21 +670,21 @@ section{
         position: relative;
         margin: 0 0 30px;
         padding: 10px 0 10px;
-        border: 1px solid @color1_3;
+        border: 1px solid @color3_3;
         box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3), 0px 10px 5px 0px rgba(0, 0, 0, 0.6);
 
         .transition (all, 0.3s, ease);
         .factor{
             .raleway;
             font-size: 40px;
-            color: @color1;
+            color: @color3;
             margin: 10px 0 15px;
         }
         h4{
             text-transform: uppercase;
             letter-spacing: 1px;
             font-weight: 600;
-            color: @color1_7;
+            color: @color3_7;
             font-size: 15px;
             margin: 15px 0;
             .raleway;
@@ -689,17 +692,17 @@ section{
         i{
             font-size: 50px;
             line-height: 40px;
-            color: @color2;
+            color: @color1;
 
         }
         &:hover{
             cursor: pointer;
-            border-color: @color2;
+            border-color: @color3;
 
         }
         .head-title{
             span{
-                font-weight: 600; color: @color2;
+                font-weight: 600; color: @color5_9;
             }
         }
         
@@ -1006,7 +1009,7 @@ section{
         a{
             font-size: 15px;
             text-transform: uppercase;
-            color: @color1_7;
+            color: @color5_7;
             display: inline-block;
             text-decoration: none;
             .raleway;
@@ -1016,15 +1019,15 @@ section{
             padding: 5px 0;
             line-height: 17px;
             &:hover{
-                color:@color2;
-                border-color: @color2;
+                color:@color1;
+                border-color: @color1;
             }
         }
     }
     li.current{
         a{
-            color:@color2;
-            border-color: @color2;
+            color:@color1;
+            border-color: @color1;
         }
     }
 }
@@ -1061,16 +1064,19 @@ section{
                     color: @color1; font-size: 20px; text-align: center; display: block; line-height: 30px;
                 }
                 h4{
-                    text-align: center; text-transform: uppercase; .raleway; color: @color5; letter-spacing:1px; font-weight:600; font-size: 15px;
+                    text-align: center; text-transform: uppercase; .raleway; color: @color7; letter-spacing:1px; font-weight:600; font-size: 15px;
                 }
                 p{
-                    text-align: center;color: @color5_7;
+                    text-align: center;color: @color7_7;
+                }
+                h5{
+                    color:@color3; font-size: 20px;
                 }
             }
         }
         &:hover{
             .image-overlay { 
-                border:none; background-color:@color2_9; opacity:1; 
+                border:none; background-color:@color4_9; opacity:1; 
                 .image-overlay-content {
                     top:50%;
                 }
@@ -1642,7 +1648,7 @@ input:focus, textarea:focus {
 }
 .widget-title{
     margin: 0 0 20px 0;
-    color: @color1_7;
+    color: @color5_7;
     font-size: 15px;
     .raleway;
     letter-spacing: 1px;
@@ -1650,7 +1656,7 @@ input:focus, textarea:focus {
     text-transform: uppercase;
     i{
         margin-right: 15px;
-        color: @color2;
+        color: @color1_9;
         font-size: 18px;
     }
 }
@@ -2099,10 +2105,7 @@ span.dropcap{
    Footer section style
    ========================================================================== */
 #footer{
-    position: relative;
-    padding: 60px 0 0;
     background-color:@color1;
-    text-align: left;
     #to-top{
         position: absolute;
         top: -10px;
@@ -2113,7 +2116,7 @@ span.dropcap{
         }
     }
     .footer-icon{
-        margin: 0;  text-align: right;
+        margin: 0;  text-align: center;
         li{
             display: inline-block;
             margin:5px;
@@ -2156,7 +2159,7 @@ span.dropcap{
         }
     }
     .footer-bottom{
-        padding: 20px 0; border-top: 1px solid @color5_1;
+        border-top: 1px solid @color5_1;
     }
 }
 
