@@ -100,7 +100,10 @@ jQuery(document).ready(function ($) {
         offset: 0,
         threshold: 120,
         filter: ':not(.external)',
-        easing: 'swing'
+        easing: 'swing',
+        onComplete: function() {
+            AOS.refresh();
+        }
     });
 
 
@@ -384,6 +387,8 @@ $(".portfolio-filter-title .filter a").on("click", function () {
 
     $(this).parent().addClass("current");
 
+    AOS.refresh();
+
     // Prevent the browser jump to the link anchor
     return false;
 });
@@ -484,3 +489,10 @@ $(function () {
  =============================================== */
 new WOW().init();
 
+
+/* ==============================================
+ AOS instatiation
+ =============================================== */
+AOS.init({
+    startEvent: 'DOMContentLoaded'
+});
